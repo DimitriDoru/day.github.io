@@ -18,7 +18,7 @@ body {
     height: 80%;
     width: 100%;
     justify-content: center;
-
+    object-position: center 40%;
 }
 
 h2 {
