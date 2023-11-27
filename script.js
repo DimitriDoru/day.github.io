@@ -14,7 +14,7 @@ yesBtn.addEventListener("click", () => {
     remainingBtn.style.margin = 'auto';
 });
 
-yesBtn.addEventListener("click", () => {
+noBtn.addEventListener("click", () => {
   question.innerHTML = "If you want i can give you a hug baby.";
   jpg.src ="https://image.emojipng.com/467/12319467.jpg";
   yesBtn.style.display = "none";
