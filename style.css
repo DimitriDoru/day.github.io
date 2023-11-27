@@ -6,9 +6,9 @@
 }
 
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     min-height: 100vh;
     background: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
