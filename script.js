@@ -16,7 +16,7 @@ yesBtn.addEventListener("click", () => {
 
 noBtn.addEventListener("click", () => {
   question.innerHTML = "If you want i can give you a hug baby.";
-  gif.src ="https://media.giphy.com/media/vJ3PqQ1qTsEV2/giphy.gif";
+  gif.src ="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmJlYXhvdmQ2ZDFwaTRzbW02eGsyZWJ0dGdybWZuMmtuMDZka3gzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uCJdwkgk7EGsx5n6d4/giphy.gif";
   yesBtn.style.display = "none";
   const nremainingBtn = document.querySelector('.btn-group button:not(.yes-btn)');
     // Center the remaining button by setting margin to auto
