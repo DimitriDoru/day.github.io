@@ -11,7 +11,7 @@ yesBtn.addEventListener("click", () => {
   noBtn.style.display = "none";
   const yremainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
     // Center the remaining button by setting margin to auto
-    remainingBtn.style.margin = 'auto';
+    yremainingBtn.style.margin = 'auto';
 });
 
 noBtn.addEventListener("click", () => {
@@ -20,5 +20,5 @@ noBtn.addEventListener("click", () => {
   yesBtn.style.display = "none";
   const nremainingBtn = document.querySelector('.btn-group button:not(.yes-btn)');
     // Center the remaining button by setting margin to auto
-    remainingBtn.style.margin = 'auto';
+    nremainingBtn.style.margin = 'auto';
 });
