@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Good to hear, what happend that it made it so good?";
-  gif.src ="https://media.giphy.com/media/FDbIUZLwbCUS4786z3/giphy.gif";
+  gif.src ="https://media.giphy.com/media/FDbIUZLwbCUS4786z3/giphy.gi";
   noBtn.style.display = "none";
   const yremainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
     // Center the remaining button by setting margin to auto
